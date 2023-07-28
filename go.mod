@@ -1,4 +1,4 @@
-module sigs.k8s.io/controller-runtime
+module github.com/sheidkamp/controller-runtime
 
 go 1.20
 
