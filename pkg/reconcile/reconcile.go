@@ -118,7 +118,7 @@ func (te *terminalError) Unwrap() error {
 
 func (te *terminalError) Error() string {
 	if te.err == nil {
-		return "terminal error"
+		return "nil terminal error"
 	}
 	return "terminal error: " + te.err.Error()
 }
